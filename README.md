@@ -6,6 +6,22 @@
 
 We have replicated the paper - [Federated learning for speech emotion recognition applications](https://ieeexplore.ieee.org/abstract/document/9111050) in this project.
 
+## Speech Emotion Recognition Network
+We train a Speech Emotion Recognition Network with the following architecture:
+
+<img src="https://github.com/ThishRaj/Federated-Learning-for-Speech-Emotion-Recognition/blob/main/Architecture-FLSER.png" alt="Results" style="height: 480px; width: 960px;"/>
+
+We use Federated Averaging algorithm to train the model in a decentralized fashion and aggregate the weights using
+
+$w_{t+1} = \sum_{k \in S_t} \frac{n_k}{m_t} w^k_{t+1}$  
+
+where $S_t$ is the set of all clients, $m_t$ is the number of samples in the $t$th update, $n_k$ is the number of samples in the client during the $k$ round and $w^k_t$ is the weight update at the $t$th update and $k$th communication round.
+
+## Dataset
+
+
+## Results
+
 The results are as follows:
 
 <img src="https://github.com/ThishRaj/Federated-Learning-for-Speech-Emotion-Recognition/blob/main/Results-FLSER.png" alt="Results" style="height: 480px; width: 640px;"/>
