@@ -18,7 +18,7 @@ $w_{t+1} = \sum_{k \in S_t} \frac{n_k}{m_t} w^k_{t+1}$
 where $S_t$ is the set of all clients, $m_t$ is the number of samples in the $t$ th update, $n_k$ is the number of samples in the client during the $k$ round and $w^k_t$ is the weight update at the $t$ th update and $k$ th communication round.
 
 ## Dataset
-
+In this implementation RAVDESS dataset has been used which is a database of Emotional Speech and Song recorded by 24 professional actors. 1440 speech files belonging to 8 emotion classes, all 16-bit, 48 kHz .wav files, are available.
 
 ## Results
 
