@@ -15,7 +15,7 @@ We use Federated Averaging algorithm to train the model in a decentralized fashi
 
 $w_{t+1} = \sum_{k \in S_t} \frac{n_k}{m_t} w^k_{t+1}$  
 
-where $S_t$ is the set of all clients, $m_t$ is the number of samples in the $t$th update, $n_k$ is the number of samples in the client during the $k$ round and $w^k_t$ is the weight update at the $t$th update and $k$th communication round.
+where $S_t$ is the set of all clients, $m_t$ is the number of samples in the $t$ th update, $n_k$ is the number of samples in the client during the $k$ round and $w^k_t$ is the weight update at the $t$ th update and $k$ th communication round.
 
 ## Dataset
 
