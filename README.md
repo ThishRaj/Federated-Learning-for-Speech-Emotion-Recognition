@@ -1,6 +1,6 @@
 # Federated-Learning-for-Speech-Emotion-Recognition
 
-## Group Memebers - 
+## Group Members - 
  - Upal Rakshit (20204421)
  - Thishyan Raj T (20204420)
 
